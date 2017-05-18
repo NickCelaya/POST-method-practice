@@ -6,6 +6,9 @@ angular.module("PostPractice").service("mainService", function($http){
       url: "/api/test",
       data: input
     }).then(function(response){
+
+      console.log(response);
+
       return response
     })
   }
